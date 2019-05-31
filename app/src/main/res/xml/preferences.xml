@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_header_notifications">
+
+        <SwitchPreference
+            android:id="@+id/notification"
+            android:key="@string/pref_notification_key"
+            android:title="Receive Notification"
+            android:summaryOn="Enable"
+            android:summaryOff="Disabled">
+        </SwitchPreference>
+
+        <!--<RingtonePreference-->
+            <!--android:ringtoneType="notification"-->
+            <!--android:title="Change Notification Ringtone"-->
+            <!--android:summary="Click to choose your melody">-->
+        <!--</RingtonePreference>-->
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Theme">
+
+        <SwitchPreference
+            android:id="@+id/night_mode"
+            android:summaryOff="@string/night_mode_off"
+            android:summaryOn="@string/night_mode_on"
+            android:text="@string/night_mode_key"
+            android:defaultValue="@bool/night_mode_default"
+            android:key="@string/night_mode_key"
+            android:title="@string/pref_night_mode_label">
+        </SwitchPreference>
+
+        <ListPreference
+            android:key="@string/pref_theme_key"
+            android:title="@string/pref_app_theme_label"
+            android:summary="@string/pref_theme_summary"
+            android:defaultValue="@string/pref_theme_default"
+            android:entries="@array/pref_color_option_labels"
+            android:entryValues="@array/pref_color_option_values"
+            >
+        </ListPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

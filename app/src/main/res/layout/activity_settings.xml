@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/fragment_settings"
+    android:name="vinamrasareen.comaniacs.com.weddingplan.SettingsFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+</fragment>
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:id="@+id/llselectalarm"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:background="@drawable/click_background"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="7dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="Theme"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/button_color"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginRight="15dp" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<include-->
+        <!--layout="@layout/activity_settings_fragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"></include>-->
+
+
+<!--</LinearLayout>-->
